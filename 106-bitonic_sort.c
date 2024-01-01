@@ -4,10 +4,10 @@
 
 
 /**
- * my_print_seq - prin array
- * @array: giv arrays
- * @my_low: low bound
- * @my_hight: up boun
+ * my_print_seq - Print array
+ * @array: arrays
+ * @my_low: Low bound
+ * @my_hight: up bound
  */
 void my_print_seq(int *array, int my_low, int my_hight)
 {
@@ -24,10 +24,10 @@ void my_print_seq(int *array, int my_low, int my_hight)
 
 /**
  * my_swap_direct - swap element if are in the
- * speci bitonic my_direction
- * @array: giv array
+ * specific bitonic my_direction
+ * @array: Giv array
  * @my_a1: first elem
- * @my_a2: second elem
+ * @my_a2: Second elem
  * @my_dir: my_direction 1 for up and 0 for down
  */
 void my_swap_direct(int *array, int my_a1, int my_a2, int my_dir)
@@ -44,12 +44,12 @@ void my_swap_direct(int *array, int my_a1, int my_a2, int my_dir)
 
 
 /**
- * my_merge_sequ - merge bitonica
- * @array: giv array
+ * my_merge_sequ - merging bitonica
+ * @array: giv array!
  * @my_low: low bound
  * @my_hight: my_hight bound
  * @my_dir: my_direction 1 for up and 0 for down
- * @size: arr siz
+ * @size: array size
  */
 void my_merge_sequ(int *array, size_t my_low, size_t my_hight,
 		int my_dir, size_t size)
@@ -69,12 +69,12 @@ void my_merge_sequ(int *array, size_t my_low, size_t my_hight,
 
 
 /**
- * my_make_seq - make bito seq
- * @array: giv ary
+ * my_make_seq - To make bito seq
+ * @array: array
  * @my_low: low bound
- * @my_hight: my_hight bound
+ * @my_hight: my_hight bound.
  * @my_dir: my_direction 1 for up  and 0 for down
- * @size: arr siz
+ * @size: array size
  */
 void my_make_seq(int *array, size_t my_low, size_t my_hight,
 		int my_dir, size_t size)
@@ -103,8 +103,8 @@ void my_make_seq(int *array, size_t my_low, size_t my_hight,
 /**
  * bitonic_sort -  sorting array integer
  * ascend order use the Bito sort algo
- * @array: giv arra
- * @size: arra siz
+ * @array: given array
+ * @size: array size.
  */
 void bitonic_sort(int *array, size_t size)
 {

@@ -3,9 +3,9 @@
 
 
 /**
- * counting_sort - sort array sort algorithm
- * @array: array that given
- * @size: size of array
+ * counting_sort - Sort array sort algorithm
+ * @array: given array
+ * @size: size of array!
  */
 void counting_sort(int *array, size_t size)
 {

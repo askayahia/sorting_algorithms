@@ -1,9 +1,9 @@
 #include "sort.h"
 /**
-*my_swap - positions of elements in an array
-*@array: arrays
-*@my_item_one: arrays elem
-*@my_item_two: arrays elem
+*my_swap - Positions of elements in an array
+*@array: Arrays
+*@my_item_one: arrays element.
+*@my_item_two: arrays element!
 */
 void my_swap(int *array, ssize_t my_item_one, ssize_t my_item_two)
 {
@@ -14,12 +14,12 @@ void my_swap(int *array, ssize_t my_item_one, ssize_t my_item_two)
 	array[my_item_two] = my_temp;
 }
 /**
- *my_hoare_partition - hoare sorting partition impl
- *@array: arrays
+ *my_hoare_partition - Hoare sorting partition imp
+ *@array: arrays!
  *@my_first: my_first arrays elem
  *@my_last: my_last arrays elem
- *@size: siz arrays
- *Return: retur my_position of my_last elem sort
+ *@size: arrays size
+ *Return: return my_position of my_last element sort !
  */
 int my_hoare_partition(int *array, int my_first, int my_last, int size)
 {
@@ -42,11 +42,11 @@ int my_hoare_partition(int *array, int my_first, int my_last, int size)
 	}
 }
 /**
- *my_QS - quick algo implem
- *@array: arrays
+ *my_QS - Quick algo impl
+ *@array: Arrays
  *@my_first: my_first array elem
  *@my_last: my_last array elem
- *@size: arrays sizes
+ *@size: Arrays sizes!
  */
 void my_QS(int *array, ssize_t my_first, ssize_t my_last, int size)
 {
@@ -60,9 +60,9 @@ void my_QS(int *array, ssize_t my_first, ssize_t my_last, int size)
 	}
 }
 /**
- *quick_sort_hoare - prep terrain to quick algo
- *@array: arrays
- *@size: arrays sizse
+ *quick_sort_hoare - prep terrain to quick algori !
+ *@array: arrays.
+ *@size: arrays sizes!
  */
 void quick_sort_hoare(int *array, size_t size)
 {

@@ -2,8 +2,8 @@
 
 
 /**
- * sort_deck - sorts of card
- * @deck: sort doubly linked list
+ * sort_deck - The sorts of card
+ * @deck: sort doubly linked list!
  */
 void sort_deck(deck_node_t **deck)
 {
@@ -45,10 +45,10 @@ void sort_deck(deck_node_t **deck)
 }
 
 /**
- * my_value_card - value of a card returned
- * @node: card deck
+ * my_value_card - Value of a card returned!
+ * @node: Card deck!
  *
- * Return: between 1 and 52
+ * Return: between 1 and 52!
  */
 int my_value_card(deck_node_t *node)
 {
@@ -74,12 +74,12 @@ int my_value_card(deck_node_t *node)
 
 
 /**
- * my_strcamp - comparable my_deux string
- * @my_1: first string for compare
- * @my_2: second string for compare
+ * my_strcamp - Comparable my_deux string!
+ * @my_1: first string for compare.
+ * @my_2: Second string for compare
  *
- * Return: lower than 0 if my_1 is less than my_2, 0 if they are equal,
- * higher than 0 if my_1 is great than my_2
+ * Return: Lower than 0 if my_1 is less than my_2, 0 if they are equal,
+ * higher than 0 if my_1 is great than my_2 !
  */
 int my_strcamp(const char *my_1, const char *my_2)
 {
@@ -96,10 +96,10 @@ int my_strcamp(const char *my_1, const char *my_2)
 }
 
 /**
- * my_len_deck - function length of list
- * @list: heads list
+ * my_len_deck - Function length of list
+ * @list: heads list!
  *
- * Return: len
+ * Return: length
  */
 size_t my_len_deck(deck_node_t *list)
 {

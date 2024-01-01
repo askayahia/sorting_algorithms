@@ -1,9 +1,9 @@
 #include "sort.h"
 
 /**
- * swap_ints - swaps two integers
- * @a: first integer
- * @b: second integer
+ * swap_ints - It swaps two integers!
+ * @a: first integer!
+ * @b: Second integer!
  */
 void swap_ints(int *a, int *b)
 {
@@ -13,9 +13,9 @@ void swap_ints(int *a, int *b)
 }
 
 /**
- * selection_sort - sorts an array of integers in ascending order
- * using the Selection sort algorithm
- * @array: array of integers to sort
+ * selection_sort - sort an array of integers in ascending order!
+ * using selection sort algorithm.
+ * @array: Array of integers to sort!
  * @size: size of the array
  */
 void selection_sort(int *array, size_t size)

@@ -1,12 +1,12 @@
 #include "sort.h"
 
 /**
- * sa_swap - swap position values array
- * @array: array should changed
- * @sa_first: sa_first index
- * @sa_seconde: sa_seconde index
+ * sa_swap - swap position values array!
+ * @array: Array should change !
+ * @sa_first: sa_first index.
+ * @sa_seconde: sa_seconde index.
  *
- * Return: nothing_else_matter
+ * Return: nothing_else_matter.
  */
 void sa_swap(int **array, int sa_first, int sa_seconde)
 {
@@ -18,11 +18,11 @@ void sa_swap(int **array, int sa_first, int sa_seconde)
 }
 
 /**
- * sa_max_heap - build heap from array
- * @array: array should changed to heap array
- * @sa_end_index: end index array partitioned
- * @sa_start_index: start a point index as array if sorted
- * @sa_size: size of array  unchanged
+ * sa_max_heap - building heap from array
+ * @array: array should changed to heap array.
+ * @sa_end_index: end index array partitioned!
+ * @sa_start_index: start point index as array if sorted!
+ * @sa_size: Size of array unchanged
  *
  * Return: nothing_else_matter
  */
@@ -49,9 +49,9 @@ void sa_max_heap(int *array, int sa_end_index, int sa_start_index, int sa_size)
 }
 
 /**
- * heap_sort - sort an array use Heap sort algorithm
- * @array: array be sorted
- * @size: size the array
+ * heap_sort - sorts an array use Heap sort algorithm!
+ * @array: array to be sorted
+ * @size: array size
  *
  * Return: nothing_else_matter
  */

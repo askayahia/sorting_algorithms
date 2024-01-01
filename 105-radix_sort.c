@@ -5,10 +5,10 @@
 int find_max(int *array, size_t size);
 
 /**
- * radix_sort - Sorts an array of integers in ascending order using
- *              the Radix sort algorithm.
- * @array: The array to be sorted.
- * @size: The size of the array.
+ * radix_sort - It sorts an array of integers in ascending order using
+ *              the Radix sort algorithm
+ * @array: array to be sorted!
+ * @size: Size of the array.
  */
 void radix_sort(int *array, size_t size)
 {
@@ -50,9 +50,9 @@ void radix_sort(int *array, size_t size)
 }
 
 /**
- * find_max - Finds the maximum value in an array of integers.
- * @array: The array to search.
- * @size: The size of the array.
+ * find_max - It finds the maximum value in an array of integers!
+ * @array: array to search
+ * @size: size of the array
  *
  * Return: The maximum value in the array.
  */

@@ -1,9 +1,9 @@
 #include "sort.h"
 
 /**
- * swap - Swaps two elements in an array
- * @a: Pointer to the first element
- * @b: Pointer to the second element
+ * swap - Swaping two elements in an array
+ * @a: Pointer to the first element.
+ * @b: Pointer to th second element.
  */
 void swap(int *a, int *b)
 {
@@ -13,13 +13,13 @@ void swap(int *a, int *b)
 }
 
 /**
- * lomuto_partition - Lomuto partition scheme for Quick sort
- * @array: The array to be partitioned
- * @low: Starting index of the partition
- * @high: Ending index of the partition
- * @size: Number of elements in the array
+ * lomuto_partition - Lomuto partition scheme for quick sort!
+ * @array: Array to be partitioned!
+ * @low: starting index of the partition.
+ * @high: Ending index of the partition!
+ * @size: number of elements in the array !
  *
- * Return: Index of the pivot after partitioning
+ * Return: Index of the pivot after partitioning.
  */
 int lomuto_partition(int *array, int low, int high, size_t size)
 {
@@ -47,11 +47,11 @@ int lomuto_partition(int *array, int low, int high, size_t size)
 }
 
 /**
- * quicksort_recursive - Recursive function to perform Quick sort
- * @array: The array to be sorted
- * @low: Starting index of the array or partition
- * @high: Ending index of the array or partition
- * @size: Number of elements in the array
+ * quicksort_recursive - Recursive function to perform Quick sort!
+ * @array: The array to sort!
+ * @low: Starting index of the array or partition!
+ * @high: Ending index of the array or partition!
+ * @size: number of elments in the array!
  */
 void quicksort_recursive(int *array, int low, int high, size_t size)
 {
@@ -66,9 +66,9 @@ void quicksort_recursive(int *array, int low, int high, size_t size)
 }
 
 /**
- * quick_sort - Sorts an array of integers in ascending order using Quick sort
- * @array: The array to be sorted
- * @size: Number of elements in the array
+ * quick_sort - Sort an array of integers in ascending order using quick sort!
+ * @array: Array to be sorted!
+ * @size: number of elements in the array.
  */
 void quick_sort(int *array, size_t size)
 {

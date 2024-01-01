@@ -3,9 +3,9 @@
 /**
  * my_nod_swapi - my_swaping nodes in list
  *
- * @list: one node list doubly linked
- * @one: addres of one node
- * @two: addres of two node
+ * @list: One node list doubly linked
+ * @one: address of one node
+ * @two: address of two node!
  */
 void my_nod_swapi(listint_t **list, listint_t *one, listint_t *two)
 {
@@ -26,10 +26,10 @@ void my_nod_swapi(listint_t **list, listint_t *one, listint_t *two)
 }
 
 /**
- * cocktail_sort_list - cocktail sort algorithm applications
- * sort numbers
+ * cocktail_sort_list - Cocktail sort algorithm applications
+ * sort numbers.
  *
- * @list: one node list of doubly linked
+ * @list: one node list of doubly linked!
  */
 void cocktail_sort_list(listint_t **list)
 {

@@ -7,11 +7,11 @@
 
 
 /**
- * enum kind_e - kind cards
- * @SPADE: spad
- * @HEART: hear
- * @CLUB: clup
- * @DIAMOND: diamon
+ * enum kind_e - kind Card
+ * @SPADE: spade
+ * @HEART: heart
+ * @CLUB: clubs
+ * @DIAMOND: diamond.
  */
 typedef enum kind_e
 {
@@ -22,11 +22,11 @@ typedef enum kind_e
 } kind_t;
 
 /**
- * struct card_s - Playing card
+ * struct card_s - playing card
  *
- * @value: Value of the card
+ * @value: value of the card
  * From "Ace" to "King"
- * @kind: Kind of the card
+ * @kind: kind of the card.
  */
 typedef struct card_s
 {
@@ -35,11 +35,11 @@ typedef struct card_s
 } card_t;
 
 /**
- * struct deck_node_s - Deck of card
+ * struct deck_node_s - deck of card
  *
- * @card: Pointer to the card of the node
+ * @card: Pointer to card of the node.
  * @prev: Pointer to the previous node of the list
- * @next: Pointer to the next node of the list
+ * @next: Pointer to the next node of list!
  */
 typedef struct deck_node_s
 {

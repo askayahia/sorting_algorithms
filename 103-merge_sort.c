@@ -1,12 +1,12 @@
 #include "sort.h"
 
 /**
- * my_print_parse - prints array value
+ * my_print_parse - It prints array value
  *
  * @array: array printed
- * @my_text: my_text printed values
- * @my_low: low boun
- * @my_hight: up boun
+ * @my_text: my_text printed values !
+ * @my_low: Low boun
+ * @my_hight: High boun
  */
 void my_print_parse(int *array, const char *my_text,
 		size_t my_low, size_t my_hight)
@@ -23,14 +23,14 @@ void my_print_parse(int *array, const char *my_text,
 	printf("\n");
 }
 /**
- * my_join_parse - join value sort in the array
+ * my_join_parse - Join value sort in the array
  * parsed
  *
- * @arr: array sorted
- * @my_low: start index array passe
- * @my_hight: end index array passed
- * @my_mid: mid split array
- * @my_copy: array sorte values
+ * @arr: array sorted.
+ * @my_low: start index array passed
+ * @my_hight: end index array passed!
+ * @my_mid: mid split array.
+ * @my_copy: array sorte values!
  */
 void my_join_parse(int *arr, size_t my_low, size_t my_hight,
 		size_t my_mid, int *my_copy)
@@ -60,10 +60,10 @@ void my_join_parse(int *arr, size_t my_low, size_t my_hight,
  * my_parser - recur merge sort et sort the
  * giv array
  *
- * @array: array sorted
+ * @array: array sorted!
  * @my_lb: low boun
- * @my_ub: up boun
- * @my_copy: array store values
+ * @my_ub: Up boun:
+ * @my_copy: Array store values
  */
 void my_parser(int *array, size_t my_lb, size_t my_ub, int *my_copy)
 {
@@ -81,11 +81,11 @@ void my_parser(int *array, size_t my_lb, size_t my_ub, int *my_copy)
 }
 
 /**
- * merge_sort - appli the merge sort
- * algorithm sort an array integers
+ * merge_sort - Apply the merge sort
+ * algorithm sort an array integers!
  *
- * @array: array sorted
- * @size: size array
+ * @array: array sorted.
+ * @size: Size of the array
  */
 void merge_sort(int *array, size_t size)
 {
